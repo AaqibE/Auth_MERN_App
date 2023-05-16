@@ -27,7 +27,7 @@ export default function Register() {
           }else{
             setData({})
             toast.success('Login Succesful. Welcome!')
-            navigate('/login')
+            navigate('/')
           }
         } catch (error) {
           console.log(error)
@@ -76,7 +76,7 @@ export default function Register() {
         <button type="submit" className="btn btn-primary">
           Sign Up
         </button>
-        <button type="button" className="btn btn-secondary mx-5" onClick={()=>navigate("/login")}>Login</button>
+        <button type="button" className="btn btn-secondary mx-5" onClick={()=>navigate("/")}>Login</button>
       </form>
     </div>
   );
