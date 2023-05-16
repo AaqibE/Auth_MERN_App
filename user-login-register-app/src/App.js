@@ -18,7 +18,7 @@ function App() {
         <UserContextProvider>
       <Toaster position = 'bottom-right' toastOptions ={{duration: 2000}}/>
         <Routes>
-          <Route path="/login" element={<Login />}></Route>
+          <Route path="/" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/dashboard" element={<Dashboard />}></Route>
 
